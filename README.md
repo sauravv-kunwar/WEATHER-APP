@@ -1,18 +1,36 @@
-🌤️ Saurav's Weather App
-A simple weather application built using Python's Tkinter library and the OpenWeatherMap API. This app shows current weather information such as temperature, weather condition, pressure, and the daily minimum and maximum temperatures.
+# 🌤️ Weather App
 
-🛠️ Features
-Search weather by city name
+A simple and elegant desktop GUI application that displays real-time weather data using the OpenWeatherMap API. Built with Python's `tkinter` for the interface, this app allows users to select a city and retrieve climate conditions including temperature, pressure, and weather description.
 
-Displays:
+---
 
-Weather condition and description
+## ✅ Features
 
-Current temperature (Celsius)
+- 🔍 **Search by City:** Select a city from a dropdown list of Nepali cities.
+- 🌤️ **Current Weather:** Shows current weather condition (e.g., Clouds, Rain, Clear).
+- 📋 **Weather Description:** Displays detailed weather descriptions like "light rain", "overcast clouds", etc.
+- 🌡️ **Temperature Details:** Shows current temperature, minimum and maximum temperature (in Celsius).
+- 🔵 **Pressure:** Displays the atmospheric pressure (in hPa).
+- 📷 **Custom Icon Support:** Uses a custom cloud icon (`clouds.png`) in the app window.
+- 🖥️ **User-Friendly GUI:** Responsive and clean interface built using `tkinter`.
 
-Atmospheric pressure
+---
 
-Daily min and max temperature
+## 📦 Requirements
 
-Simple, user-friendly interface
+To run this project, you need Python 3 and the following libraries:
 
+- `requests`
+- `Pillow` (for image handling)
+
+Install them with:
+
+```bash
+pip install -r requirements.txt
+
+
+
+
+
+Author
+Saurav Kunwar
