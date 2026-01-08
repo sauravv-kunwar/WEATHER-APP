@@ -8,7 +8,7 @@ from datetime import datetime
 
 def data_get():
     city = city_name.get()
-    url = f"https://api.openweathermap.org/data/2.5/forecast?q={city}&appid=your_api"
+    url = f"https://api.openweathermap.org/data/2.5/forecast?q={city}&appid=your__api"
     data = requests.get(url).json()
 
     if data["cod"] != "200":
@@ -111,3 +111,4 @@ done.place(x=200, y=180, height=50, width=100)
 
 
 win.mainloop()
+
