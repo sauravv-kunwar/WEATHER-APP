@@ -22,10 +22,6 @@ To run this project, you need Python 3 and the following libraries:
 
 - `requests`
 - `Pillow` (for image handling)
-Install them with:
-
-```bash
-pip install -r requirements.txt
 
 
 
